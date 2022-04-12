@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Alumni+Sans:ital,wght@0,200;0,400;1,300&family=Hubballi&family=Quintessential&family=Source+Code+Pro:wght@400;500;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "Alumni Sans", sans-serif;
+}
+
+.bg-gray-900 {
+  background-color: #1a1a1a;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.block {
+  display: block;
+}
+
+.inline-block {
+  display: inline-block;
+}
+.inline {
+  display: inline;
+}
+.hidden {
+  display: none;
+}
+.flex {
+  display: flex;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.justify-center {
+  justify-content: center;
+}
+.logo {
+  width: 70px;
+  height: 70px;
+  margin-top: 20px;
+}
+.items-center {
+  align-items: center;
+}
+.m-8 {
+  margin: 8px;
+}
+.p-8 {
+  padding: 8px;
+}
+.px-22 {
+  padding-left: 22px;
+  padding-right: 22px;
+}
+.px-50 {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.no-underline {
+  text-decoration: none;
+}
+.bg-brand-red {
+  background-color: #f73728;
+}
+.bg-brand-black {
+  background-color: #262626;
+}
+.round-corner {
+  border-radius: 10px;
+}
+.border-none {
+  border: none;
+}
+.brand-logo {
+  font-size: 50px;
+  color: #f73728;
+}
+.f-15 {
+  font-size: 15px;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+.letter-spacing {
+  letter-spacing: 1px;
+}
+.bg-centre {
+  /* padding: 50px; */
+  display: flex;
+  /* flex-wrap: center;
+  align-items: center; */
+  font-size: 42.6667px;
+  line-height: 59px;
+  letter-spacing: 0em;
+  --para-spacing: 0;
+  text-transform: none;
+  --head-indent: 0;
+  --numeric-list-marker: none;
+  list-style-type: none;
+}
+.w-full {
+  width: 100vw;
+}
+.h-full {
+  min-height: 100vh;
+}
+.relative {
+  position: relative;
+}
+.z-10 {
+  z-index: 10;
+}
+.object-cover {
+  object-fit: cover;
+}
+
+.p-r-100{
+  padding-right: 500px;
+}
